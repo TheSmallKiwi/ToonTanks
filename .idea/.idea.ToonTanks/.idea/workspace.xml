@@ -5,21 +5,19 @@
     <projectFile>Intermediate/ProjectFiles/UE4.vcxproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56330d52-1904-42e3-a713-fb5aa5d48b9a" name="Default Changelist" comment="Implement PawnTurret &amp; Find Distance">
-      <change afterPath="$PROJECT_DIR$/Content/Blueprints/Actors/BP_ProjectileBase.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/ToonTanks/ProjectileBase.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/ToonTanks/ProjectileBase.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ToonTanks.sln.DotSettings.user" afterDir="false" />
+    <list default="true" id="56330d52-1904-42e3-a713-fb5aa5d48b9a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Content/Blueprints/GameModes/BP_GameModeBase.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/ToonTanks/HealthComponent.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/ToonTanks/HealthComponent.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ToonTanks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToonTanks/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/Pawns/BP_PawnTank.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Pawns/BP_PawnTank.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/Pawns/BP_PawnTurret.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Pawns/BP_PawnTurret.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Maps/Main.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/Main.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/PawnBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/PawnBase.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ToonTanks/PawnBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/PawnBase.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/PawnTank.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/PawnTank.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ToonTanks/PawnTank.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/PawnTank.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/PawnTurret.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/PawnTurret.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ToonTanks/PawnTurret.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/PawnTurret.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToonTanks.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/ToonTanks.sln.DotSettings.user" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,25 +31,26 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Engine/Classes/GameFramework/ProjectileMovementComponent.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_4.26/Engine/Source/Editor/AIGraph/Private/AIGraphConnectionDrawingPolicy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Experimental/Chaos/Private/Chaos/AABB.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Engine/Classes/Components/PrimitiveComponent.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Engine/Private/Actor.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Engine/Classes/GameFramework/SpringArmComponent.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_4.26/Engine/Source/Runtime/Engine/Private/GameplayStatics.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Source/ToonTanks/PawnTurret.h" />
       <option value="$PROJECT_DIR$/Source/ToonTanks/PawnTurret.cpp" />
-      <option value="$PROJECT_DIR$/Source/ToonTanks/PawnTank.h" />
       <option value="$PROJECT_DIR$/Source/ToonTanks/PawnTank.cpp" />
-      <option value="$PROJECT_DIR$/Source/ToonTanks/PawnBase.h" />
       <option value="$PROJECT_DIR$/Source/ToonTanks/PawnBase.cpp" />
       <option value="$PROJECT_DIR$/Source/ToonTanks/ProjectileBase.h" />
       <option value="$PROJECT_DIR$/Source/ToonTanks/ProjectileBase.cpp" />
+      <option value="$PROJECT_DIR$/Source/ToonTanks/HealthComponent.h" />
+      <option value="$PROJECT_DIR$/Source/ToonTanks/HealthComponent.cpp" />
+      <option value="$PROJECT_DIR$/Source/ToonTanks/PawnBase.h" />
+      <option value="$PROJECT_DIR$/Source/ToonTanks/PawnTank.h" />
+      <option value="$PROJECT_DIR$/Source/ToonTanks/PawnTurret.h" />
+      <option value="$PROJECT_DIR$/Source/ToonTanks/TankGameModeBase.h" />
+      <option value="$PROJECT_DIR$/Source/ToonTanks/TankGameModeBase.cpp" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1q2TFeAwXUCsno6qsNk9gW16TBw" />
@@ -302,7 +301,8 @@
       <workItem from="1616280444999" duration="333000" />
       <workItem from="1616280796124" duration="4406000" />
       <workItem from="1616345897372" duration="6730000" />
-      <workItem from="1616364243996" duration="12707000" />
+      <workItem from="1616364243996" duration="12749000" />
+      <workItem from="1616438047068" duration="6577000" />
     </task>
     <task id="LOCAL-00001" summary="Initial push">
       <created>1616280548227</created>
@@ -332,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616372176539</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Implemented Projectiles">
+      <created>1616386021624</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1616386021624</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,6 +378,18 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Implemented Movement &amp; Rotation" />
     <MESSAGE value="Implement PawnTurret &amp; Find Distance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement PawnTurret &amp; Find Distance" />
+    <MESSAGE value="Implemented Projectiles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented Projectiles" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Source/ToonTanks/HealthComponent.cpp</url>
+          <line>3</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
