@@ -35,6 +35,7 @@ void UHealthComponent::TakeDamage(AActor* DamagedActor, float Damage, const UDam
 	}
 
 	Health = FMath::Clamp(Health - Damage, 0.0f, DefaultHealth);
+	UE_LOG(LogTemp, Warning, TEXT("%s Hitpoints are %f"), *GetOwner()->GetName(), Health);
 
 	if (Health <= 0)
 	{

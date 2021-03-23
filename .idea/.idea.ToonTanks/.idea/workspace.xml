@@ -5,8 +5,29 @@
     <projectFile>Intermediate/ProjectFiles/UE4.vcxproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56330d52-1904-42e3-a713-fb5aa5d48b9a" name="Default Changelist" comment="Implemented GameMode">
-      <change afterPath="$PROJECT_DIR$/Content/Blueprints/Widgets/WBP_GameStart.uasset" afterDir="false" />
+    <list default="true" id="56330d52-1904-42e3-a713-fb5aa5d48b9a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Content/Blueprints/General/BP_CameraShakeExplode.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Blueprints/General/BP_CameraShakeHit.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Blueprints/PlayerControllers/BP_PlayerController.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Blueprints/Widgets/WBP_GameEnd.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/ToonTanks/PlayerControllerBase.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/ToonTanks/PlayerControllerBase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ToonTanks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToonTanks/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Actors/BP_ProjectileBase.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Actors/BP_ProjectileBase.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/GameModes/BP_GameModeBase.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/GameModes/BP_GameModeBase.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Pawns/BP_PawnTank.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Pawns/BP_PawnTank.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Pawns/BP_PawnTurret.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Pawns/BP_PawnTurret.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Maps/Main.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/Main.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/HealthComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/HealthComponent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/PawnBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/PawnBase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/PawnBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/PawnBase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/PawnTank.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/PawnTank.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/PawnTank.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/PawnTank.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/PawnTurret.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/PawnTurret.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/ProjectileBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/ProjectileBase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/ProjectileBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/ProjectileBase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/TankGameModeBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/TankGameModeBase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/TankGameModeBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/TankGameModeBase.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,18 +49,20 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Source/ToonTanks/PawnTurret.cpp" />
-      <option value="$PROJECT_DIR$/Source/ToonTanks/PawnTank.cpp" />
-      <option value="$PROJECT_DIR$/Source/ToonTanks/PawnBase.cpp" />
-      <option value="$PROJECT_DIR$/Source/ToonTanks/ProjectileBase.h" />
-      <option value="$PROJECT_DIR$/Source/ToonTanks/ProjectileBase.cpp" />
       <option value="$PROJECT_DIR$/Source/ToonTanks/HealthComponent.h" />
-      <option value="$PROJECT_DIR$/Source/ToonTanks/HealthComponent.cpp" />
-      <option value="$PROJECT_DIR$/Source/ToonTanks/PawnBase.h" />
-      <option value="$PROJECT_DIR$/Source/ToonTanks/PawnTank.h" />
       <option value="$PROJECT_DIR$/Source/ToonTanks/PawnTurret.h" />
+      <option value="$PROJECT_DIR$/Source/ToonTanks/HealthComponent.cpp" />
+      <option value="$PROJECT_DIR$/Source/ToonTanks/PlayerControllerBase.h" />
+      <option value="$PROJECT_DIR$/Source/ToonTanks/PlayerControllerBase.cpp" />
       <option value="$PROJECT_DIR$/Source/ToonTanks/TankGameModeBase.h" />
       <option value="$PROJECT_DIR$/Source/ToonTanks/TankGameModeBase.cpp" />
+      <option value="$PROJECT_DIR$/Source/ToonTanks/PawnTurret.cpp" />
+      <option value="$PROJECT_DIR$/Source/ToonTanks/PawnTank.cpp" />
+      <option value="$PROJECT_DIR$/Source/ToonTanks/PawnTank.h" />
+      <option value="$PROJECT_DIR$/Source/ToonTanks/ProjectileBase.h" />
+      <option value="$PROJECT_DIR$/Source/ToonTanks/ProjectileBase.cpp" />
+      <option value="$PROJECT_DIR$/Source/ToonTanks/PawnBase.h" />
+      <option value="$PROJECT_DIR$/Source/ToonTanks/PawnBase.cpp" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1q2TFeAwXUCsno6qsNk9gW16TBw" />
@@ -291,7 +314,8 @@
       <workItem from="1616280796124" duration="4406000" />
       <workItem from="1616345897372" duration="6730000" />
       <workItem from="1616364243996" duration="12749000" />
-      <workItem from="1616438047068" duration="7333000" />
+      <workItem from="1616438047068" duration="7649000" />
+      <workItem from="1616521966026" duration="10046000" />
     </task>
     <task id="LOCAL-00001" summary="Initial push">
       <created>1616280548227</created>
@@ -342,7 +366,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616451188719</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Started widget blueprints">
+      <created>1616452781077</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1616452781077</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,7 +415,8 @@
     <MESSAGE value="Implemented Projectiles" />
     <MESSAGE value="implemented GameMode, HealthComponent, ActorDied" />
     <MESSAGE value="Implemented GameMode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented GameMode" />
+    <MESSAGE value="Started widget blueprints" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started widget blueprints" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
